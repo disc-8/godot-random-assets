@@ -1,4 +1,7 @@
-#this needs pretty spesiffix nodes: rotation pivot,interaction area,n da model itself
+#this needs pretty spesiffix nodes:
+# rotation pivot - regular spatial
+# da model itself, goes on edge of spatial
+ # interaction area, under layer 2 along with players interaction area on layer2. 
 extends Spatial
 
 onready var rotpivot=$rotpivot
