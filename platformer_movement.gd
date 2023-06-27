@@ -1,4 +1,12 @@
-extends KinematicBody2D
+#to use:
+# area2d
+# 	collshape
+# 	tween
+# 	raycast
+# 	sprite
+
+
+extends Area2D
 
 const UP_DIR := Vector2.UP
 
