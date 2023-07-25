@@ -1,3 +1,11 @@
+#nodes:
+#Node
+#	Thugshaker(tween)
+#	Freq(timer)
+#	Duration(timer)
+
+#connect timer signals
+
 extends Node
 
 const TRANS = Tween.TRANS_SINE
