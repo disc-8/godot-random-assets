@@ -42,5 +42,4 @@ func hurt(dmg):
 	$AnimationPlayer.play("hurt")
 	hp -= dmg
 	if hp <= 0:
-		player.ttu -= 1
 		queue_free()
